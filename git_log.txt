@@ -1,0 +1,17 @@
+* 909b35e - myelovis, 9 days ago : perus tarkistus ennen lähete
+* 6168981 - myelovis, 9 days ago : test and tehty mitä oikeiasti olen tekemassa
+* 00365c6 - myelovis, 9 days ago : tesiting the output filepaths, not see output files hyet
+* 6f7b530 - myelovis, 9 days ago : 2nd confrim task 4
+* f9668dd - myelovis, 9 days ago : 1st trial task four
+* 8ecb9a6 - myelovis, 9 days ago : epsilon considering
+* ee0fde4 - myelovis, 9 days ago : func 3
+* cafe91a - myelovis, 9 days ago : space after for statement
+* 3df887a - myelovis, 9 days ago : avoid recursive directory loops and 'continue' applied
+* b5c2ae5 - myelovis, 9 days ago : find log file func
+* 5250dd3 - myelovis, 9 days ago : import and def for task 1
+* 132195a - myelovis, 9 days ago : deliverable 2 preparation
+* 8b44b5a - Hegaasa, 2 weeks ago : Update frost_med_no-checkpoint.ipynb
+* 30e8677 - Hegaasa, 2 weeks ago : fixing the notebook
+* 19be440 - Hegaasa, 2 weeks ago : Add files via upload
+* ac415d1 - myelovis, 3 weeks ago : organize files and folders
+* 12c0900 - myelovis, 3 weeks ago : frist add
