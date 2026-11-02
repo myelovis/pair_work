@@ -51,7 +51,3 @@ class Character:
         return self._hp
 
 
-# Task 2: Implement a full-working Dice class
-
-
-
