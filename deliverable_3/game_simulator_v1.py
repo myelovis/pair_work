@@ -49,3 +49,9 @@ class Character:
     def hp(self) -> int:
         """Public read-only property to inspect HP without allowing direct, unsafe edits."""
         return self._hp
+
+
+# Task 2: Implement a full-working Dice class
+
+
+
