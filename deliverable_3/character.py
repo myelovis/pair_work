@@ -56,6 +56,11 @@ class Character:
         """Public read-only property to inspect HP without allowing direct, unsafe edits."""
         return self._hp
 
+    @property
+    def is_alive(self) -> bool:
+        """Return whether the character is alive."""
+        return self._hp > 0
+
 # task 4
 class Warrior(Character):
     def __init__(
