@@ -1,0 +1,11 @@
+# merging branches to main, works both in either main or branch
+
+git merge --no-ff
+
+# show git-log
+
+git show --textconv :git_log.txt
+
+# record git to git_log.txt 
+
+git log --graph --pretty=format:"%h - %an, %ar : %s" > git_log.txt
