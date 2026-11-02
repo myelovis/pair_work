@@ -1,8 +1,9 @@
-*   c64757e - myelovis, 56 seconds ago : sync startup 3
+* da8fb8f - myelovis, 2 minutes ago : common git commands
+*   c64757e - myelovis, 9 minutes ago : sync startup 3
 |\  
 | * 9a16a1b - Hegaasa, 3 days ago : update
-* | 667fff0 - myelovis, 8 minutes ago : start-up 3
-* | 7a172dd - myelovis, 69 minutes ago : cleaning environment
+* | 667fff0 - myelovis, 16 minutes ago : start-up 3
+* | 7a172dd - myelovis, 77 minutes ago : cleaning environment
 * | c757601 - myelovis, 3 days ago : themerge
 |/  
 * 909b35e - myelovis, 12 days ago : perus tarkistus ennen lähete

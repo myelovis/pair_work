@@ -1,10 +1,14 @@
 # Object-oriented game simulator
 # Turid Torheim, NMBU, 2026
+# Group 7_3, Deliverable 3
+
+
+# Task 1: Implement a full-working Character class
 
 class Character:
     """Represents a character in the RPG"""
 
-    def __init__(self, name: str, hp_max: int = 100, damage: int = 10) -> None:
+    def __init__(self, name: str, hp_max: int = 100, damage: int = 10, amount: int = 0) -> None:
         """
         Initialise the Character
 
@@ -12,6 +16,7 @@ class Character:
             name (str): The name of the character.
             hp_max (int): Max hit points (default = 100)
             damage (int): Damage delt when character attacks (default = 10)
+            amount (int): Amount of damage taken (default = 0)
         """
         self.name = name
         self._hp = hp_max  # Note: _hp indicated private attribute
@@ -34,7 +39,7 @@ class Character:
             """Reduces the character's HP by the specified amount, ensuring it doesn't go below 0."""
             self._hp = max(0, self._hp - max(0, amount))
     
-    def attack(self, target) -> None:
+    def attack(self, target: "Character") -> None:
         """Attack and deal damage to target character"""
         target.take_damage(self.damage)
         target._hp = max(0, target._hp)  # Target hp cannot end up lower than 0
