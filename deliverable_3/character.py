@@ -5,22 +5,29 @@ from deliverable_3.items import Weapon
 
 
 class Character:
-    """Represents a character in the RPG"""
+    """Represents a character in the RPG."""
 
-    def __init__(self, name: str, hp_max: int = 100, damage: int = 10, amount: int = 0) -> None:
+    def __init__(
+        self,
+        name: str,
+        hp_max: int = 100,
+        damage: int = 10,
+        weapon: Weapon | None = None,
+    ) -> None:
         """
-        Initialise the Character
+        Initialise the Character.
 
         Args:
             name (str): The name of the character.
-            hp_max (int): Max hit points (default = 100)
-            damage (int): Damage delt when character attacks (default = 10)
-            amount (int): Amount of damage taken (default = 0)
+            hp_max (int): Maximum hit points (default = 100).
+            damage (int): Base attack damage (default = 10).
+            weapon (Weapon | None): Equipped weapon (default = None).
         """
         self.name = name
-        self._hp = hp_max  # Note: _hp indicated private attribute
-        self.hp_max = max(0, self._hp - max(0, amount))
+        self._hp = hp_max
+        self.hp_max = hp_max
         self.damage = damage
+        self.weapon = weapon
 
     def introduce(self) -> None:
         """Creates string that introduces character"""
@@ -71,16 +78,17 @@ class Mage(Character):
             name: str, 
             hp_max: int = 100, 
             damage: int = 10, 
-            mana: int = 30, 
+            mana: int= 0,  
             weapon: Weapon | None = None,
-            mana: int = 30) -> None:
-        super().__init__(name, hp_max, damage)
-        self.mana = mana
-        self.spell_power = spell_power
+            mana_max: int = 30) -> None:
+                super().__init__(name=name, hp_max=hp_max, damage=damage, weapon=weapon)
+                self.mana_max = mana_max
+                self.mana = max(0, min(mana, self.mana_max))
 
-    def cast_spell(self, target: "Character") -> None:
+    def attack(self, target: Character) -> None:
         if self.mana >= 10:
-            target.take_damage(self.spell_power)
             self.mana -= 10
+            target.take_damage(self.damage * 2)
         else:
-            print(f"{self.name} does not have enough mana to cast a spell.")
+            super().attack(target)
+            self.mana = min(self.mana_max, self.mana + 5)
