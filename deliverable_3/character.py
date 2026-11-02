@@ -1,9 +1,8 @@
 # Object-oriented game simulator
 # Turid Torheim, NMBU, 2026
 # Group 7_3, Deliverable 3
+from deliverable_3.items import Weapon
 
-
-# Task 1: Implement a full-working Character class
 
 class Character:
     """Represents a character in the RPG"""
@@ -50,4 +49,38 @@ class Character:
         """Public read-only property to inspect HP without allowing direct, unsafe edits."""
         return self._hp
 
+# task 4
+class Warrior(Character):
+    def __init__(
+            self, 
+            name: str, 
+            hp_max: int = 100, 
+            damage: int = 10, 
+            armor: int = 5, 
+            weapon: Weapon | None = None ) -> None:
+        super().__init__(name, hp_max, damage)
+        self.armor = armor
 
+    def take_damage(self, amount: int) -> None:
+        reduce_damage = max(0, amount - self.armor)
+        super().take_damage(reduce_damage)
+
+class Mage(Character):
+    def __init__(
+            self, 
+            name: str, 
+            hp_max: int = 100, 
+            damage: int = 10, 
+            mana: int = 30, 
+            weapon: Weapon | None = None,
+            mana: int = 30) -> None:
+        super().__init__(name, hp_max, damage)
+        self.mana = mana
+        self.spell_power = spell_power
+
+    def cast_spell(self, target: "Character") -> None:
+        if self.mana >= 10:
+            target.take_damage(self.spell_power)
+            self.mana -= 10
+        else:
+            print(f"{self.name} does not have enough mana to cast a spell.")

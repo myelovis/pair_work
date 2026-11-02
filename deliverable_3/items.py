@@ -1,4 +1,4 @@
-from dice import Dice
+from deliverable_3.dice import Dice
 
 
 class Weapon:
