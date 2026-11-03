@@ -1,23 +1,35 @@
-* da8fb8f - myelovis, 2 minutes ago : common git commands
-*   c64757e - myelovis, 9 minutes ago : sync startup 3
+* c418d9b - myelovis, 2 minutes ago : readme.txt updated with code for testing
+* d6e5946 - myelovis, 13 hours ago : gameon
+* f497990 - myelovis, 13 hours ago : tehtävä 4 tehty
+* 3a8fae1 - myelovis, 14 hours ago : import block is unsorted or un-formatted Error solved
+* e575446 - myelovis, 14 hours ago : readme upadted
+* 6389735 - myelovis, 14 hours ago : en tiedæ mitæ skriv
+* 1fc961b - myelovis, 14 hours ago : loaded t3
+* 2ca8d0a - myelovis, 14 hours ago : virtual items created
+* 448c619 - myelovis, 14 hours ago : readme.txt updated
+* 55b7457 - myelovis, 14 hours ago : task 1 and 2 done, readme created
+* 0caad46 - myelovis, 15 hours ago : reorganize files for preventing misunderstood
+* d136dbb - myelovis, 15 hours ago : type annotation applied, parameter name corrected
+* da8fb8f - myelovis, 15 hours ago : common git commands
+*   c64757e - myelovis, 15 hours ago : sync startup 3
 |\  
-| * 9a16a1b - Hegaasa, 3 days ago : update
-* | 667fff0 - myelovis, 16 minutes ago : start-up 3
-* | 7a172dd - myelovis, 77 minutes ago : cleaning environment
-* | c757601 - myelovis, 3 days ago : themerge
+| * 9a16a1b - Hegaasa, 4 days ago : update
+* | 667fff0 - myelovis, 15 hours ago : start-up 3
+* | 7a172dd - myelovis, 16 hours ago : cleaning environment
+* | c757601 - myelovis, 4 days ago : themerge
 |/  
-* 909b35e - myelovis, 12 days ago : perus tarkistus ennen lähete
-* 6168981 - myelovis, 12 days ago : test and tehty mitä oikeiasti olen tekemassa
-* 00365c6 - myelovis, 12 days ago : tesiting the output filepaths, not see output files hyet
-* 6f7b530 - myelovis, 12 days ago : 2nd confrim task 4
-* f9668dd - myelovis, 12 days ago : 1st trial task four
-* 8ecb9a6 - myelovis, 12 days ago : epsilon considering
-* ee0fde4 - myelovis, 12 days ago : func 3
-* cafe91a - myelovis, 12 days ago : space after for statement
-* 3df887a - myelovis, 12 days ago : avoid recursive directory loops and 'continue' applied
-* b5c2ae5 - myelovis, 12 days ago : find log file func
-* 5250dd3 - myelovis, 12 days ago : import and def for task 1
-* 132195a - myelovis, 12 days ago : deliverable 2 preparation
+* 909b35e - myelovis, 13 days ago : perus tarkistus ennen lähete
+* 6168981 - myelovis, 13 days ago : test and tehty mitä oikeiasti olen tekemassa
+* 00365c6 - myelovis, 13 days ago : tesiting the output filepaths, not see output files hyet
+* 6f7b530 - myelovis, 13 days ago : 2nd confrim task 4
+* f9668dd - myelovis, 13 days ago : 1st trial task four
+* 8ecb9a6 - myelovis, 13 days ago : epsilon considering
+* ee0fde4 - myelovis, 13 days ago : func 3
+* cafe91a - myelovis, 13 days ago : space after for statement
+* 3df887a - myelovis, 13 days ago : avoid recursive directory loops and 'continue' applied
+* b5c2ae5 - myelovis, 13 days ago : find log file func
+* 5250dd3 - myelovis, 13 days ago : import and def for task 1
+* 132195a - myelovis, 13 days ago : deliverable 2 preparation
 * 8b44b5a - Hegaasa, 3 weeks ago : Update frost_med_no-checkpoint.ipynb
 * 30e8677 - Hegaasa, 3 weeks ago : fixing the notebook
 * 19be440 - Hegaasa, 3 weeks ago : Add files via upload
