@@ -1,16 +1,19 @@
+# task 5: Implement a turn-based combat system
+
 from character import Character
 
 
 class Battle:
-# makes a class that implements a turn based combat system
+# makes a class that implements a turn based combat system.
     def __init__(self, hero: Character, enemy: Character) -> None:
         self.hero = hero
         self.enemy = enemy
     # defines the hero and the enemy, the two sides in the battle
+
     def play_round(self) -> None:
         if not self.hero.is_alive or not self.enemy.is_alive:
             return
-    # plays a round of combat.
+    # plays a round of combat. If either character is dead, the round ends.
         self.hero.attack(self.enemy)
         # hero attacks enemy first.
         if self.enemy.is_alive:
