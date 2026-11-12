@@ -57,6 +57,9 @@ class Character:
         else:
             damage_dealt = self.damage
         target.take_damage(damage_dealt)
+                    # damage_dealt is just a temporary local variable 
+                       # created inside attack() to hold the calculated damage number 
+                       # for a single turn before passing it to target.take_damage()
         
 
     @property
