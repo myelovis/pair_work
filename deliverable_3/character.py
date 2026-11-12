@@ -43,7 +43,8 @@ class Character:
 
     def take_damage(self, amount: int) -> None:
             """Reduces the character's HP by the specified amount, ensuring it doesn't go below 0."""
-            self._hp = max(0, self._hp - max(0, amount))
+            self._hp = max(0, self._hp - max(0, amount)) 
+                # here we have the lower limit of 0, so that the character's HP cannot go below 0.
 
     def heal(self, amount: int) -> None:
         """Increases the character's HP by the specified amount, up to hp_max."""
@@ -52,8 +53,7 @@ class Character:
     def attack(self, target: "Character") -> None:
         """Attack and deal damage to target character"""
         target.take_damage(self.damage)
-        target._hp = max(0, target._hp)  # Target hp cannot end up lower than 0
-
+        
 
     @property
     def hp(self) -> int:
