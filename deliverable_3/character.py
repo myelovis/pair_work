@@ -51,8 +51,12 @@ class Character:
         self._hp = min(self.hp_max, self._hp + max(0, amount))
     
     def attack(self, target: "Character") -> None:
-        """Attack and deal damage to target character"""
-        target.take_damage(self.damage)
+        """Attack and deal damage to target character."""
+        if self.weapon is not None:
+            damage_dealt = self.weapon.roll_damage()
+        else:
+            damage_dealt = self.damage
+        target.take_damage(damage_dealt)
         
 
     @property
