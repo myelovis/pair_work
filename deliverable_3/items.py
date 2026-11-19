@@ -8,3 +8,5 @@ class Weapon:
 
     def roll_damage(self):
         return self.damage_dice.roll()
+
+    

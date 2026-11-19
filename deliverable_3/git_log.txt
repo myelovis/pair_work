@@ -1,0 +1,44 @@
+* 3c6f136 - myelovis, 23 hours ago : note about parameter damage_dealt
+* 242c6c7 - myelovis, 24 hours ago : update for attack() method to fit to Task3
+* bc708ab - myelovis, 24 hours ago : edit attack() for there no need to again put the limit of 0 manas, as take_damage() set it already
+* 787d58b - myelovis, 24 hours ago : heal() method addin, how could I forgot it before?
+* 839ad32 - Hegaasa, 2 days ago : minor changes
+* e5932fb - Hegaasa, 2 days ago : Update battle.py
+* 2cdce19 - myelovis, 10 days ago : git_log filed updated from myelovis part
+* c418d9b - myelovis, 10 days ago : readme.txt updated with code for testing
+* d6e5946 - myelovis, 11 days ago : gameon
+* f497990 - myelovis, 11 days ago : tehtävä 4 tehty
+* 3a8fae1 - myelovis, 11 days ago : import block is unsorted or un-formatted Error solved
+* e575446 - myelovis, 11 days ago : readme upadted
+* 6389735 - myelovis, 11 days ago : en tiedæ mitæ skriv
+* 1fc961b - myelovis, 11 days ago : loaded t3
+* 2ca8d0a - myelovis, 11 days ago : virtual items created
+* 448c619 - myelovis, 11 days ago : readme.txt updated
+* 55b7457 - myelovis, 11 days ago : task 1 and 2 done, readme created
+* 0caad46 - myelovis, 11 days ago : reorganize files for preventing misunderstood
+* d136dbb - myelovis, 11 days ago : type annotation applied, parameter name corrected
+* da8fb8f - myelovis, 11 days ago : common git commands
+*   c64757e - myelovis, 11 days ago : sync startup 3
+|\  
+| * 9a16a1b - Hegaasa, 2 weeks ago : update
+* | 667fff0 - myelovis, 11 days ago : start-up 3
+* | 7a172dd - myelovis, 11 days ago : cleaning environment
+* | c757601 - myelovis, 2 weeks ago : themerge
+|/  
+* 909b35e - myelovis, 3 weeks ago : perus tarkistus ennen lähete
+* 6168981 - myelovis, 3 weeks ago : test and tehty mitä oikeiasti olen tekemassa
+* 00365c6 - myelovis, 3 weeks ago : tesiting the output filepaths, not see output files hyet
+* 6f7b530 - myelovis, 3 weeks ago : 2nd confrim task 4
+* f9668dd - myelovis, 3 weeks ago : 1st trial task four
+* 8ecb9a6 - myelovis, 3 weeks ago : epsilon considering
+* ee0fde4 - myelovis, 3 weeks ago : func 3
+* cafe91a - myelovis, 3 weeks ago : space after for statement
+* 3df887a - myelovis, 3 weeks ago : avoid recursive directory loops and 'continue' applied
+* b5c2ae5 - myelovis, 3 weeks ago : find log file func
+* 5250dd3 - myelovis, 3 weeks ago : import and def for task 1
+* 132195a - myelovis, 3 weeks ago : deliverable 2 preparation
+* 8b44b5a - Hegaasa, 4 weeks ago : Update frost_med_no-checkpoint.ipynb
+* 30e8677 - Hegaasa, 4 weeks ago : fixing the notebook
+* 19be440 - Hegaasa, 4 weeks ago : Add files via upload
+* ac415d1 - myelovis, 5 weeks ago : organize files and folders
+* 12c0900 - myelovis, 5 weeks ago : frist add
