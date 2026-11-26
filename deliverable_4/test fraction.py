@@ -2,6 +2,7 @@
 import pytest
 from fraction import Fraction
 
+# this test file is for testing the Fraction class
 
 # Initialization tests
 def test_initialization():
